@@ -1,6 +1,6 @@
 # 🌐 AccessX – Cyber Recon & Phishing Framework
 
-![AccessX Banner](\Dev_File\Main Menu.png)
+![AccessX Banner](/Dev_File/Main Menu.png)
 
 **All-in-One Ethical Security Testing Suite** - Complete package with Seeker, Strombreaker, and ngrok integration
 
