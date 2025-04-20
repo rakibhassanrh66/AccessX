@@ -1,17 +1,16 @@
 # 🌐 AccessX – Cyber Recon & Phishing Framework
 
-![AccessX Banner](\Dev_File\Main Menu.png)
+![AccessX Banner](Dev_File/Main%20Menu.png)
 
-**All-in-One Ethical Security Testing Suite** - Complete package with Seeker, Strombreaker, and ngrok integration
+**All-in-One Ethical Security Testing Suite** – Complete package with Seeker, Strombreaker, and Ngrok integration
 
-Now access from ANY terminal:
+---
 
-bash
+## ⚙️ Launch from ANY terminal:
+
+```bash
 accessx  # Launches main interface
 
-🔥 Key Features
-Diagram
-Code
 pie
     title Feature Distribution
     "Automated Phishing Templates" : 35
@@ -20,51 +19,31 @@ pie
     "Ngrok Integration" : 15
     "Cross-Platform" : 5
 
-
-📂 Repository Structure
 AccessX/
 ├── Dev_File/
-│   ├── accessx.sh (main executable)
-│   ├── Tools/ (self-contained binaries)
+│   ├── accessx.sh              # Main launcher script
+│   ├── Tools/                  # Self-contained tools
 │   │   ├── seeker/
 │   │   ├── strombreaker/
 │   │   └── ngrok/
-│   └── Templates/
+│   └── Templates/              # Phishing and recon templates
 ├── install.sh
 └── uninstall.sh
 
-⚡ Usage Flow
-Launch: accessx
-
-Select tool/module
-
-Customize template (if needed)
-
-Get shareable link
-
-View real-time analytics
-
-Diagram
-Code
 
 flowchart TD
-    A[Start] --> B{Module}
+    A[Start] --> B{Choose Module}
     B -->|Seeker| C[Track Devices]
-    B -->|Strombreaker| D[Phishing Sim]
+    B -->|Strombreaker| D[Phishing Simulation]
     C & D --> E[Generate Link]
     E --> F[Share with Target]
     F --> G[Collect Data]
 
----
-
-## 🚀 Instant Setup & Launch
-
-```bash
-# Install system-wide (Linux/macOS)
+# Linux/macOS (System-wide install)
 git clone https://github.com/rakibhassan66/AccessX.git
 cd AccessX && sudo ./install.sh
 
-# Windows (Run as Admin):
+# Windows (Run in PowerShell as Admin)
 iwr -useb https://bit.ly/accessx-win | iex
 
 
