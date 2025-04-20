@@ -1,24 +1,14 @@
 # 🌐 AccessX – Cyber Recon & Phishing Framework
 
-![AccessX Banner](C:\Users\rakib\Documents\GitHub\AccessX\Dev_File\Main Menu.png)
+![AccessX Banner](\Dev_File\Main Menu.png)
 
 **All-in-One Ethical Security Testing Suite** - Complete package with Seeker, Strombreaker, and ngrok integration
 
----
-
-## 🚀 Instant Setup & Launch
-
-```bash
-# Install system-wide (Linux/macOS)
-git clone https://github.com/rakibhassan66/AccessX.git
-cd AccessX && sudo ./install.sh
-
-# Windows (Run as Admin):
-iwr -useb https://bit.ly/accessx-win | iex
 Now access from ANY terminal:
 
 bash
 accessx  # Launches main interface
+
 🔥 Key Features
 Diagram
 Code
@@ -29,6 +19,8 @@ pie
     "Real-time Tracking" : 20
     "Ngrok Integration" : 15
     "Cross-Platform" : 5
+
+
 📂 Repository Structure
 AccessX/
 ├── Dev_File/
@@ -40,8 +32,7 @@ AccessX/
 │   └── Templates/
 ├── install.sh
 └── uninstall.sh
-🖥️ Live Demo (Local Paths)
-<div align="center"> <img src="C:\Users\rakib\Documents\GitHub\AccessX\Dev_File\Main Menu.png" width="30%"> <img src="C:\Users\rakib\Documents\GitHub\AccessX\Dev_File\loginpage.png" width="30%"> <img src="C:\Users\rakib\Documents\GitHub\AccessX\Dev_File\seeker.png" width="30%"> </div>
+
 ⚡ Usage Flow
 Launch: accessx
 
@@ -55,6 +46,7 @@ View real-time analytics
 
 Diagram
 Code
+
 flowchart TD
     A[Start] --> B{Module}
     B -->|Seeker| C[Track Devices]
@@ -62,32 +54,17 @@ flowchart TD
     C & D --> E[Generate Link]
     E --> F[Share with Target]
     F --> G[Collect Data]
-📧 Contact & Support
-Author: Rakib Hassan
-✉️ Email: rakibhassan.rh66@protomail.com
-🐦 X (Twitter): @rakibhassan66
-💬 Discord: rakibhassan66
 
-Support Options:
+---
 
-GitHub Issues
+## 🚀 Instant Setup & Launch
 
-Email Support (24h response)
+```bash
+# Install system-wide (Linux/macOS)
+git clone https://github.com/rakibhassan66/AccessX.git
+cd AccessX && sudo ./install.sh
 
-Community Forum (coming soon)
+# Windows (Run as Admin):
+iwr -useb https://bit.ly/accessx-win | iex
 
-⚠️ Legal Notice
-diff
-+ Approved Uses:
-- Security research
-- Authorized pentesting
-- Education/training
 
-- Illegal activities STRICTLY prohibited
-! User assumes all liability
-🔄 Maintenance
-Command	Action
-accessx --update	Update all components
-accessx --reset	Restore default config
-sudo accessx --uninstall	Complete removal
-Pro Tip: Add alias ax='accessx' to your .bashrc for even faster access!
