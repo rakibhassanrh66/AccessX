@@ -1,11 +1,25 @@
 # 🌐 AccessX_Dev  
 ### Controlled Web-Based Vulnerability Assessment System
 
+## 🔐 Authentication / Login
 <p align="center">
-  <img src="Dev_File/Main.png" width="280" />
-  <img src="Dev_File/loginpage.png" width="280" />
-  <img src="Dev_File/seeker.png" width="280" />
+  <img src="Dev_File/loginpage.png" width="900">
 </p>
+
+---
+
+## 📂 Template Control Panel
+<p align="center">
+  <img src="Dev_File/Main.png" width="700">
+</p>
+
+---
+
+## 🌐 Live Request Monitoring (ngrok)
+<p align="center">
+  <img src="Dev_File/seeker.png" width="500">
+</p>
+
 
 <p align="center">
   <b>Web Engineering Final Year Project</b><br/>
